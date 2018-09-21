@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import random
 
-def test(a):
+def display(a):
     result_string = ''
     for i in range(100):
         result_string += '<p style="color:rgb({}, {}, {});font-size:{}px;">I love you {}!</p>'.format(
@@ -13,4 +13,4 @@ def test(a):
     return result_string
 
 if __name__ == '__main__':
-    print test('Laura')
+    print display('Laura')

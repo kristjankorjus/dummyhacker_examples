@@ -8,7 +8,7 @@ def display(a):
             random.randint(0,255),
             random.randint(0,255),
             random.randint(0,255),
-            random.randint(5,20),
+            random.randint(10,20),
             a)
     return result_string
 
